@@ -1,0 +1,247 @@
+@font-face {
+  font-family: MinhasFontes;
+  src: url(fonts/klavikaboldwebfont/klavikaboldwebfont.eot);
+  src: url(fonts/klavikaboldwebfont/klavikaboldwebfont.eot?#iefix) format('embedded-opentype'), url(fonts/klavikaboldwebfont/klavikaboldwebfont.woff2) format('woff2'), url(fonts/klavikaboldwebfont/klavikaboldwebfont.woff) format('woff'), url(fonts/klavikaboldwebfont/klavikaboldwebfont.ttf) format('truetype'), url(fonts/klavikaboldwebfont/klavikaboldwebfont.svg#svgFontName) format('svg');
+}
+
+body, html {
+  height: 100%;
+}
+
+#tudo {
+  border: 1px solid #fff;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 300px) {
+  #corpo {
+    margin: 11% 0 20% !important;
+  }
+}
+
+@media (min-width: 460px) {
+  #corpo {
+    margin: 10% 0 18% !important;
+  }
+}
+
+@media (min-width: 520px) {
+  #corpo {
+    margin: 9% 0 16% !important;
+  }
+}
+
+@media (min-width: 590px) {
+  #corpo {
+    margin: 8% 0 15% !important;
+  }
+}
+
+@media (min-width: 700px) {
+  #corpo {
+    margin: 7% 0 14% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #corpo {
+    margin: 6% 0 12% !important;
+  }
+}
+
+@media (min-width: 790px) {
+  #corpo {
+    margin: 6% 0 10% !important;
+  }
+}
+
+@media (min-width: 970px) {
+  #corpo {
+    margin: 5% 0 8% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #corpo {
+    margin: 5% 0 7% !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  #corpo {
+    margin: 4% 0 6% !important;
+  }
+}
+
+@media (min-width: 1540px) {
+  #corpo {
+    margin: 4% 0 5% !important;
+  }
+}
+
+#rodape {
+  position: absolute;
+  bottom: 0;
+}
+
+.card-home h3 {
+  height: 2.4em !important;
+  margin-bottom: 0;
+}
+
+.card-home h5 {
+  height: 2.4em !important;
+}
+
+.lutador a {
+  color: #000 !important;
+}
+
+.card-atletas h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info-form {
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 50px;
+  background-color: #529645;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.info-form-luta {
+  margin: 30px 0 0;
+  border: 2px solid #196b0a;
+  border-radius: 20px;
+}
+
+.info-form-delete {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0;
+  color: #fff;
+  background-color: #dc3545;
+  border: 2px solid #4e1319;
+  border-radius: 20px;
+}
+
+#divDataTable div:first-child {
+  width: 98%;
+  margin: auto;
+  padding: 3px 0;
+}
+
+.circle {
+  font-size: 60px;
+  line-height: 0;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.circle:before {
+  content: '\25CF';
+}
+
+.icons img {
+  width: 20px;
+}
+
+.titulo-modal {
+  margin: 25px 0 35px;
+}
+
+.luta-modal div img {
+  max-height: 510px;
+}
+
+.luta-modal .nome-lutador {
+  height: 100px;
+}
+
+.luta-modal .nome-lutador h1, .luta-modal .nome-lutador h2, .luta-modal .nome-lutador h3, .luta-modal .nome-lutador h4, .luta-modal .nome-lutador h5, .luta-modal .nome-lutador h6, .luta-modal .nome-lutador h7 {
+  line-height: .8 !important;
+}
+
+.luta-modal .nome-lutador span {
+  font-size: 70%;
+  color: #777;
+  font-style: italic;
+}
+
+.modalLutaAoVivo {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 720px;
+}
+
+.modalLutaAoVivo .apresentaDesafiado, .modalLutaAoVivo .apresentaDesafiante, .modalLutaAoVivo .apresentaItsTime, .modalLutaAoVivo .apresentaPosLutadores, .modalLutaAoVivo .apresentaPreResultado, .modalLutaAoVivo .apresentaResultado, .modalLutaAoVivo .apresentaVencedor, .modalLutaAoVivo .saudacao {
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #dc3545;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 25px;
+}
+
+.modalLutaAoVivo .apresentaDesafiado, .modalLutaAoVivo .apresentaDesafiante, .modalLutaAoVivo .apresentaVencedor {
+  background-color: #b11a28;
+}
+
+.modalLutaAoVivo .apresentaVencedor, .modalLutaAoVivo .nomeDesafiado, .modalLutaAoVivo .nomeDesafiante {
+  font-size: 60px;
+  font-family: fantasy;
+  font-weight: 400;
+}
+
+.modalLutaAoVivo .nomeDesafiado, .modalLutaAoVivo .nomeDesafiante {
+  color: #d6d6d6;
+}
+
+.modalLutaAoVivo .apresentaVencedor {
+  color: #cdd03c;
+}
+
+.infos-desafiado, .infos-desafiante {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #dc3545;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 25px;
+  font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  #divDataTable {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 992px) {
+  .desafiado:after {
+    content: "vs";
+    color: red;
+    position: absolute;
+    left: 80%;
+    font-size: 300%;
+    font-weight: 700;
+  }
+}

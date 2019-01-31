@@ -1,0 +1,61 @@
+.card-home {
+  position: relative;
+  height: 250px;
+}
+
+.card-title .logo-evento {
+  background-color: #f00;
+  color: #fff;
+  width: 50%;
+  height: 50px;
+  margin: -4px auto 0px;
+}
+
+.card-title .logo-evento span:first-child {
+  font-size: 30px;
+  color: #fff;
+}
+
+.card-title .logo-evento span:last-child {
+  font-size: 11px;
+  top: -1.7em;
+  color: #fff;
+  /*position: relative;*/
+  float: left;
+  padding-left: 4px;
+}
+
+.card:hover .hover {
+  opacity: 1;
+}
+
+.hover {
+  position: absolute;
+  height: 100%;
+  margin: -4px;
+  opacity: 0;
+  border: 0px solid;
+}
+
+.hover-lutadores {
+  height: 200px;
+}
+
+.hover-desafiado, .hover-desafiante {
+  position: absolute;
+  width: 60%;
+  height: 80%;
+}
+
+.hover-desafiante {
+  right: 0px;
+  transform: rotateY(180deg);
+}
+
+.hover-desafiado img {
+  height: 100%;
+}
+
+.hover-desafiante img {
+  height: 100%;
+}
