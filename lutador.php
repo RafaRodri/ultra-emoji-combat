@@ -1,7 +1,7 @@
 <?php
-require_once 'Include/header.php';
-require_once("include/variaveis.php");
-require_once("class/classcrud.php");
+require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/include/header.php");
+require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/include/variaveis.php");
+require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/class/crud.php");
 
 $Crud = new ClassCrud();
 
@@ -90,5 +90,5 @@ $Fetch = $BFetchLutador->fetch(PDO::FETCH_ASSOC);
   </div>
 
 <?php
-require_once 'Include/footer.php';
+require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/include/footer.php");
 ?>

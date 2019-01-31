@@ -223,8 +223,7 @@ if ($acao == "luta") {
     $BFetchInfos->closecursor();
   }
 
-  //require_once("include/modalLuta.php");
-  require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/include/modalLuta.php");
+  require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/include/modal-luta.php");
 }
 
 elseif ($acao == "lutador") {
@@ -274,7 +273,6 @@ elseif ($acao == "lutador") {
         } else {
           //Atualiza��o de lutas que n�o se encaixa mais no peso permitido
           if ($Fetch['statusOperacao'] == 1 && $Fetch['mudouCategoria'] > 0) {
-            /*N�O TO CONSEGUINDO IF COM ACENTUA�AO (== "n�o aprovada")*/
             //$BFetchStatusLutas = $Crud->selectSPR("call spr_getDadosStatus(?);",array(0));
             //while($FetchStatusLutas = $BFetchStatusLutas->fetch(PDO::FETCH_ASSOC)){
             //    $testando = $FetchStatusLutas['nomeStatus'];
@@ -394,7 +392,6 @@ elseif ($acao == "lutador") {
         //}
 
       }
-
       else {
         ////Seleciona categorias dispon�veis
         //$BFetchCategorias=$Crud->selectDB("*","categoria","",array());
@@ -440,11 +437,12 @@ elseif ($acao == "lutador") {
         //    echo "N�o se encaixa em nenhuma categoria dispon�vel";
         //}
       }
-    } else {
+    }
+    else {
       if (is_numeric($altura)) {
         echo "Informe o peso em quilos. <br />Exemplo: 99.9";
       } else {
-        echo "Informe a altura em cent�metros. <br />Exemplo: 199";
+        echo "Informe a altura em centímetros. <br />Exemplo: 199";
       }
     }
   }
@@ -688,6 +686,6 @@ elseif ($acao == "status") {
 }
 
 else {
-  echo "A��o n�o informada";
+  echo "Ação não informada";
 }
 ?>

@@ -82,7 +82,7 @@ function abrirModalFight() {
     var param = "?desafiado=" + $("#desafiado").val() + "&desafiante=" + $("#desafiante").val() + "&eventoId=" + $("#evento").val();
 
     $.ajax({
-      url: 'controller/ControllerLutar.php' + param,
+      url: 'controller/lutar.php' + param,
       type: 'post',
       dataType: 'html',
       data: Dados,

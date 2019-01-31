@@ -111,7 +111,7 @@ $(".container").on('submit', '#formCadastro', function (event) {
     var Dados = $(this).serialize();
 
     $.ajax({
-      url: 'controller/ControllerCadastro.php?acao=' + objeto,
+      url: 'controller/cadastro.php?acao=' + objeto,
       type: 'post',
       dataType: 'html',
       data: Dados,

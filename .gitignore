@@ -1,6 +1,7 @@
 .idea/
 correcoes.txt
 luta(erro-charset).php
+readme.html
 
 NewProject.bmpr
 
@@ -11,5 +12,6 @@ open-iconic-master/
 
 class/ClassCrud_old.php
 class/ClassCrud_old2.php
-Include/json-paises.php
+include/json-paises.php
 js/functions_old.js
+img/photothumb.db

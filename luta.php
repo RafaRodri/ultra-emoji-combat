@@ -3,7 +3,7 @@ require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/include/header.php");
 ?>
 <div class="info-form-luta">
   <?php
-  require_once("controller/ControllerConsulta.php");
+  require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/controller/consulta.php");
 
   $Crud = new ClassCrud();
   ?>
@@ -109,6 +109,6 @@ require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/include/header.php");
 </div>
 
 <?php
-require_once 'Include/footer.php';
+require_once("{$_SERVER['DOCUMENT_ROOT']}/estudo/UEC/include/footer.php");
 ?>
 <script type="text/javascript" src="js/apresentacao-luta.js"></script>

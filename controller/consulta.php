@@ -79,7 +79,7 @@ if ($acao == "luta") {
     $BFetchInfos->closecursor();
   }
 
-  require_once("include/modalLuta.php");
+  require_once("include/modal-luta.php");
 } /*
 elseif($acao == "lutador"){
     $nome = $_POST['nome'];
